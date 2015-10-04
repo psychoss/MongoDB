@@ -1,10 +1,10 @@
-
+mongo
 
 # MongoDB
 
 MongoDB是一个高效，灵活，可扩展的数据库。它包括的功能有二级索引，范围查询，排序，聚合和地理空间索引。
 
-## MongoDB指南
+## MongoDB 权威指南
 * [介绍](http://www.mean101.com/mongo-introduction/)
 * [MongoDB的基础知识](http://www.mean101.com/mongo-basic-knowledge/)
 	* [文档](http://www.mean101.com/mongo-document/)
@@ -22,13 +22,13 @@ MongoDB是一个高效，灵活，可扩展的数据库。它包括的功能有�
 	* [插入和保存文档](http://www.mean101.com/mongo-inserting-and-saving-documents/)
 	* [删除文档](http://www.mean101.com/mongo-removing-documents/)
 	* [更新文档](http://www.mean101.com/mongo-updating-documents/)
-	* [使用修饰符](http://www.mean101.com/mongo-using-modifiers/)
-		* [`$set`修饰符](http://www.mean101.com/mongo-set-modifier/)
-		* [`$unset` 修饰符](http://www.mean101.com/mongo-unset-modifier/)
+	* [使用修改器](http://www.mean101.com/mongo-using-modifiers/)
+		* [$set修改器](http://www.mean101.com/mongo-set-modifier/)
+		* [$unset 修改器](http://www.mean101.com/mongo-unset-modifier/)
 		* [数值的加和减](http://www.mean101.com/mongo-incrementing-and-decrementing/)
-		* [数组修饰符](http://www.mean101.com/mongo-array-modifiers/)
-		* [修饰符的速度](http://www.mean101.com/mongo-modifier-speed/)
-	* [`upsert`](http://www.mean101.com/mongo-upsert/)
+		* [数组修改器](http://www.mean101.com/mongo-array-modifiers/)
+		* [修改器的速度](http://www.mean101.com/mongo-modifier-speed/)
+	* [upsert](http://www.mean101.com/mongo-upsert/)
 	* [更新多个文档](http://www.mean101.com/mongo-updating-multiple-documents/)
 	* [返回已更新的文档](http://www.mean101.com/mongo-returning-updated-documents/)
 	* [设置一个写入安全](http://www.mean101.com/mongo-setting-a-write-concern/)
@@ -37,7 +37,22 @@ MongoDB是一个高效，灵活，可扩展的数据库。它包括的功能有�
 	* [限制](http://www.mean101.com/mongo-querying-limitations/)
 	* [查询条件](http://www.mean101.com/mongo-query-conditionals/)
 	* [或查询](http://www.mean101.com/mongo-or-queries/)
-	* [`$not`](http://www.mean101.com/mongo-opreator-not/)
+	* [$not](http://www.mean101.com/mongo-opreator-not/)
+	* [条件语义](http://www.mean101.com/mongo-conditional-semantics/)
+	* [null](http://www.mean101.com/mongo-querying-null/)
+	* [正则表达式](http://www.mean101.com/mongo-regular-expressions/)
+	* [数组查询](http://www.mean101.com/mongo-querying-arrays/)
+		* [$all](http://www.mean101.com/mongo-querying-array-all/)
+		* [$size](http://www.mean101.com/mongo-querying-size/)
+		* [$slice](http://www.mean101.com/mongo-the-slice-operator/)
+		* [数组和范围查询的相互作用](http://www.mean101.com/mongo-array-and-range-query-interactions/)
+	* [查询内嵌文档](http://www.mean101.com/mongo-querying-on-embedded-documents/)
+	* [$where 查询](http://www.mean101.com/mongo-where-queries/)
+	* [服务端的脚本](http://www.mean101.com/docker-server-side-scripting/)
+	* [游标](http://www.mean101.com/mongo-cursors/)
+		* [限制, 跳过和排序](http://www.mean101.com/mongo-limits-skips-and-sorts/)
+	* [类型比较](http://www.mean101.com/mongo-comparison-order/)
+	* [避免大幅度的跳过](http://www.mean101.com/mongo-avoiding-large-skips/)
 * [索引](http://www.mean101.com/mongo-introduction-to-indexing/)
 	* [复合索引](http://www.mean101.com/mongo-compound-indexes/)
 
